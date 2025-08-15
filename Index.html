@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SAHIL | Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;400&display=swap" rel="stylesheet">
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="glass-header">
+    <div class="header-content">
+      <span class="logo">SAHIL</span>
+      <span class="header-icons">
+        <button id="themeSwitcher" class="icon-btn" aria-label="Switch theme">&#9728;</button>
+        <button id="cmdBtn" class="icon-btn" aria-label="Close sidebar"><span class="cmd-icon">&#8984;</span></button>
+        <button id="hamburgerBtn" class="icon-btn" aria-label="Open sidebar">
+          <svg width="32" height="32" viewBox="0 0 32 32">
+            <rect x="7" y="10" rx="2" ry="2" width="18" height="3" />
+            <rect x="7" y="15" rx="2" ry="2" width="12" height="3" />
+            <rect x="7" y="20" rx="2" ry="2" width="18" height="3" />
+          </svg>
+        </button>
+      </span>
+    </div>
+  </header>
+  <!-- Sidebar -->
+  <nav id="sidebarMenu" class="glass-sidebar">
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#blog">Blog</a></li>
+      <li><a href="#about">About</a></li>
+    </ul>
+  </nav>
+  <main>
+    <!-- Home Section -->
+    <section id="home" class="hero-section">
+      <div class="profile-img-container">
+        <img src="https://iili.io/FLRQDoQ.jpg" alt="S" class="profile-img" />
+      </div>
+      <h1>
+        I'm <span class="logo">Sahil</span>, a Full Stack Developer<br>
+        creating <span class="rgb-highlight">stunning</span> websites using React.
+      </h1>
+      <div class="location">
+        India &bull; UTC/GMT +5:30
+      </div>
+    </section>
+    <!-- Projects Section -->
+    <section id="projects" class="glass-card">
+  <h2 style="text-align:center;">Selected Projects</h2>
+  <div class="project-list" style="display:flex; flex-direction:column; align-items:center; gap:28px;">
+    <!-- Project 1 -->
+    <div class="project-card" style="width:100%; max-width:500px;">
+      <div class="project-header">
+        <span class="project-lightbulb"><i class="fa-regular fa-lightbulb"></i></span>
+        <span class="project-title">Project 1</span>
+        <a href="https://symodanceacademy.com" class="project-arrow" target="_blank" rel="noopener noreferrer" aria-label="Open project">
+          <i class="fa-solid fa-arrow-up-right-from-square"></i>
+        </a>
+      </div>
+      <div class="project-card-custom" data-link="https://symodanceacademy.com">
+        <img src="https://iili.io/JhqUj7F.jpg" alt="Symo Dance Academy" class="project-bg-img"/>
+        <div class="project-info">
+          <h3>Symo Dance Academy</h3>
+          <p>it is a dance studio website</p>
+        </div>
+      </div>
+    </div>
+    <!-- Project 2 -->
+    <div class="project-card" style="width:100%; max-width:500px;">
+      <div class="project-header">
+        <span class="project-lightbulb"><i class="fa-regular fa-lightbulb"></i></span>
+        <span class="project-title">Project 2</span>
+        <a href="https://electronshub.com" class="project-arrow" target="_blank" rel="noopener noreferrer" aria-label="Open project">
+          <i class="fa-solid fa-arrow-up-right-from-square"></i>
+        </a>
+      </div>
+      <div class="project-card-custom" data-link="https://electronshub.com">
+        <img src="https://iili.io/JhqUqbt.jpg" alt="ElectronsHUB" class="project-bg-img"/>
+        <div class="project-info">
+          <h3>ElectronsHUB</h3>
+          <p>My college major project</p>
+        </div>
+      </div>
+    </div>
+    <div style="display: flex; justify-content: center; margin-top: 24px; width:100%;">
+      <button class="see-all-projects-btn">
+        See All Projects
+      </button>
+    </div>
+  </div>
+</section>
+    <!-- Blog Section -->
+    <section id="blog" class="glass-card">
+      <h2>Blog</h2>
+      <p>Coming soon! Stay tuned for my travel and coding stories.</p>
+    </section>
+    <!-- About Section -->
+    <section id="about" class="glass-card">
+      <h2>About</h2>
+      <p>I'm a Full Stack Developer, editor, photographer. I love coding, reading, traveling & exploring the world.</p>
+    </section>
+    <!-- Contact Us Section -->
+    <section id="contact" class="glass-card contact-us">
+      <h2><i class="fa fa-link"></i> Contact Us:</h2>
+      <ul class="contact-list">
+        <li>
+          <a href="https://github.com/kauaawhite" target="_blank" rel="noopener noreferrer" aria-label="Github">
+            <i class="fab fa-github"></i> Github
+          </a>
+        </li>
+        <li>
+          <a href="https://instagram.com/pov.s4hilll" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+            <i class="fab fa-instagram"></i> Instagram
+          </a>
+        </li>
+      </ul>
+    </section>
+  </main>
+  <footer class="glass-footer">
+    <span class="footer-content">&copy; 2025 Sahil</span>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
